@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      JsonApp
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,55 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">JsonApp</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<div class="main">
+  <ion-item lines="none" class="back" *ngFor="let cat of cats.animals">
+  
+    <ion-card class="ion-text-center">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">Name: {{cat.AltName}}</ion-card-title>
+        <ion-card-subtitle class="ion-text-center">Origin: {{cat.Origin}}</ion-card-subtitle>
+        <ion-card-subtitle class="ion-text-center">Average LifeSpan: {{cat.Averagelife}}</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content class="ion-text-center">
+        <img src={{cat.url}} alt="">
+        <ion-item lines="none" class="ion-text-center">
+          <h1>Breed Description: {{cat.BreedDesc}}</h1>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+
+<ion-card class="ion-text-center">
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input type="text" [(ngModle)]="name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Origin</ion-label>
+    <ion-input type="text" [(ngModle)]="origin"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Average Life</ion-label>
+    <ion-input type="text" [(ngModle)]="averagelife"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Breed Description</ion-label>
+    <ion-input type="text" [(ngModle)]="breed"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">URL of Image</ion-label>
+    <ion-input type="text" [(ngModle)]="url"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="SendDataFu()" color="warning">ADD</ion-button>
+</ion-card>
+
+</div>
+
+
+
 </ion-content>

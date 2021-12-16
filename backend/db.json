@@ -1,0 +1,61 @@
+{
+    "animals": [{
+        "AltName":"Longhair or Persian Longhair",
+        "Origin":"Iran",
+        "Averagelife":"12-17 years",
+        "BreedDesc": "Long haired breed of cat that has a short round face with a wide head. It has a thick coat , large eyes and a shortened muzzle.",
+        "url":"https://troubleandtrix.com/media/3kzp0xhw/persian-longhair-cat-1240x640.jpg?anchor=center&mode=crop&width=1238&height=640&rnd=132521132574070000"
+    },{
+        "AltName":"American Burmese, British Burmese",
+        "Origin":"Thailand",
+        "Averagelife":"10-17 years",
+        "BreedDesc": "Appears in 2 forms – American and British. The British ones are slender and have a long body while the American ones are broader and shorter with a flat muzzle.",
+        "url":"https://www.purina.co.uk/sites/default/files/2021-02/CAT%20HERO_0005_Burmese.jpg"
+    },{
+        "AltName":"Scot Fold, Lops, Folds",
+        "Origin":"Scotland",
+        "Averagelife":"11- 15 years",
+        "BreedDesc": "It is a medium sized cat weighing 4-6 kg. The coat can be long-haired or short-haired and ears can be normal or folded.",
+        "url":"https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/scottish-fold-detail.jpg?bust=1535567146&width=355"
+    },{
+        "AltName":"Bobbed tail cat",
+        "Origin":"United States",
+        "Averagelife":"11- 15 Years",
+        "BreedDesc": "These have a short to medium built body with short tails. Hips are as wide as chest. Ears are medium sized and eyes are almond shaped.",
+        "url":"https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/American-Bobtail-01.jpg?bust=1539031086&width=355"
+    },{
+        "AltName":"Bengoli Cat",
+        "Origin":"United States",
+        "Averagelife":"14-16 Years",
+        "BreedDesc": "Bengal cats are a hybrid of the Asian Leopard Cat and domestic cats.They have two basic fur patterns: common spotted pattern and swirly marbled. They have a white belly.",
+        "url":""
+    },{
+        "AltName":"Ankara",
+        "Origin":"Turkey",
+        "Averagelife":"12- 18 years",
+        "BreedDesc": "These have long silky coats with round bodies. They are intelligent, playful and loyal with humans.",
+        "url":"https://media.istockphoto.com/photos/bengal-cat-picture-id1041004002?k=20&m=1041004002&s=170667a&w=0&h=fSyuzbgVaj1-ndIhUJq1R2WqE2UveUUeA4iFADdt1CE="
+    },{
+        "AltName":"Spangle",
+        "Origin":"California",
+        "Averagelife":"9-16 years",
+        "BreedDesc": "This breed looks similar to a leopard in appearance. It has a spotted muscular body  with large whisker pads.",
+        "url":"https://allaboutcats.com/wp-content/uploads/2020/10/The-California-Spangled-Cats.jpg"
+    },{
+        "AltName":"Mau",
+        "Origin":"Egypt",
+        "Averagelife":"13-16 Years",
+        "BreedDesc": "They are slender and muscular cat that are loyal to their masters. The front legs are comparatively shorter than the hind legs.",
+        "url":"https://vetstreet.brightspotcdn.com/dims4/default/9a14fab/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fdd%2F2ecc90a33911e087a80050568d634f%2Ffile%2FEgyptian-Mau-2-645mk062211.jpg"
+    },{
+        "AltName":"Sacred Birman, Sacred Cat of Burma",
+        "Origin":"France",
+        "Averagelife":"12-16 Years",
+        "BreedDesc": " It is a domestic cat breed having medium sized and rectangular body. They have rounded eyes that are sapphire blue in color and a roman nose.",
+        "url":"https://st4.depositphotos.com/1004592/24111/i/600/depositphotos_241115606-stock-photo-birman-kitten-front-white-background.jpg"
+    }
+
+
+
+    ]
+}
